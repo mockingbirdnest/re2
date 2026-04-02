@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{74AF45CB-9027-406A-B31B-0A41C630798D}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(SolutionDir)re2.props" />
+  <ItemGroup>
+    <ClCompile Include="..\..\re2\testing\regexp_benchmark.cc" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{79F179C9-A2FE-4414-8C3B-78CF7685A81C}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(SolutionDir)re2.props" />
+  <ItemGroup>
+    <ClInclude Include="..\..\re2\testing\exhaustive_tester.h" />
+    <ClInclude Include="..\..\re2\testing\regexp_generator.h" />
+    <ClInclude Include="..\..\re2\testing\string_generator.h" />
+    <ClInclude Include="..\..\re2\testing\tester.h" />
+    <ClCompile Include="..\..\re2\testing\backtrack.cc" />
+    <ClCompile Include="..\..\re2\testing\charclass_test.cc" />
+    <ClCompile Include="..\..\re2\testing\compile_test.cc" />
+    <ClCompile Include="..\..\re2\testing\dfa_test.cc" />
+    <ClCompile Include="..\..\re2\testing\dump.cc" />
+    <ClCompile Include="..\..\re2\testing\exhaustive_test.cc" />
+    <ClCompile Include="..\..\re2\testing\exhaustive_tester.cc" />
+    <ClCompile Include="..\..\re2\testing\exhaustive1_test.cc" />
+    <ClCompile Include="..\..\re2\testing\exhaustive2_test.cc" />
+    <ClCompile Include="..\..\re2\testing\exhaustive3_test.cc" />
+    <ClCompile Include="..\..\re2\testing\filtered_re2_test.cc" />
+    <ClCompile Include="..\..\re2\testing\mimics_pcre_test.cc" />
+    <ClCompile Include="..\..\re2\testing\null_walker.cc" />
+    <ClCompile Include="..\..\re2\testing\parse_test.cc" />
+    <ClCompile Include="..\..\re2\testing\possible_match_test.cc" />
+    <ClCompile Include="..\..\re2\testing\random_test.cc" />
+    <ClCompile Include="..\..\re2\testing\re2_arg_test.cc" />
+    <ClCompile Include="..\..\re2\testing\re2_test.cc" />
+    <ClCompile Include="..\..\re2\testing\regexp_generator.cc" />
+    <ClCompile Include="..\..\re2\testing\regexp_test.cc" />
+    <ClCompile Include="..\..\re2\testing\required_prefix_test.cc" />
+    <ClCompile Include="..\..\re2\testing\search_test.cc" />
+    <ClCompile Include="..\..\re2\testing\set_test.cc" />
+    <ClCompile Include="..\..\re2\testing\simplify_test.cc" />
+    <ClCompile Include="..\..\re2\testing\string_generator_test.cc" />
+    <ClCompile Include="..\..\re2\testing\string_generator.cc" />
+    <ClCompile Include="..\..\re2\testing\tester.cc" />
+  </ItemGroup>
+</Project>
