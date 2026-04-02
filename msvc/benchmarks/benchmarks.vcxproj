@@ -6,6 +6,13 @@
   </PropertyGroup>
   <Import Project="$(SolutionDir)re2.props" />
   <ItemGroup>
+    <ClCompile Include="..\..\re2\testing\backtrack.cc" />
+    <ClCompile Include="..\..\re2\testing\null_walker.cc" />
     <ClCompile Include="..\..\re2\testing\regexp_benchmark.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\re2\re2.vcxproj">
+      <Project>{0269a15b-3cc2-49c0-832d-00425f50f615}</Project>
+    </ProjectReference>
   </ItemGroup>
 </Project>

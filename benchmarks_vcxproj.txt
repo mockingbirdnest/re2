@@ -1,0 +1,5 @@
+﻿  <ItemGroup>
+    <ClCompile Include="..\..\re2\testing\backtrack.cc" />
+    <ClCompile Include="..\..\re2\testing\null_walker.cc" />
+    <ClCompile Include="..\..\re2\testing\regexp_benchmark.cc" />
+  </ItemGroup>
