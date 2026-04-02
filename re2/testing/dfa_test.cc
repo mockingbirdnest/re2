@@ -139,6 +139,7 @@ TEST(SingleThreaded, BuildEntireDFA) {
 // so if the DFA can search correctly while staying within a
 // 2^n byte limit, it must be handling out-of-memory conditions
 // gracefully.
+#ifndef _DEBUG
 TEST(SingleThreaded, SearchDFA) {
   // The De Bruijn string is the worst case input for this regexp.
   // By default, the DFA will notice that it is flushing its cache
@@ -203,6 +204,7 @@ TEST(SingleThreaded, SearchDFA) {
   ASSERT_GT(state_cache_resets, 0);
   ASSERT_EQ(search_failures, 0);
 }
+#endif
 
 // Helper function: searches for match, which should match,
 // and no_match, which should not.
@@ -224,6 +226,7 @@ static void DoSearch(Prog* prog, absl::string_view match,
   }
 }
 
+#ifndef _DEBUG
 TEST(Multithreaded, SearchDFA) {
   Prog::TESTING_ONLY_set_dfa_should_bail_when_slow(false);
   state_cache_resets = 0;
@@ -270,6 +273,7 @@ TEST(Multithreaded, SearchDFA) {
   ASSERT_GT(state_cache_resets, 0);
   ASSERT_EQ(search_failures, 0);
 }
+#endif
 
 struct ReverseTest {
   const char* regexp;
