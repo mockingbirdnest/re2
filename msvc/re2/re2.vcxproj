@@ -10,38 +10,47 @@
     <ClInclude Include="..\..\re2\stringpiece.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\re2\bitmap256.h" />
+    <ClInclude Include="..\..\re2\filtered_re2.h" />
+    <ClInclude Include="..\..\re2\pod_array.h" />
+    <ClInclude Include="..\..\re2\prefilter_tree.h" />
+    <ClInclude Include="..\..\re2\prefilter.h" />
+    <ClInclude Include="..\..\re2\prog.h" />
+    <ClInclude Include="..\..\re2\regexp.h" />
+    <ClInclude Include="..\..\re2\set.h" />
+    <ClInclude Include="..\..\re2\sparse_array.h" />
+    <ClInclude Include="..\..\re2\sparse_set.h" />
+    <ClInclude Include="..\..\re2\unicode_casefold.h" />
+    <ClInclude Include="..\..\re2\unicode_groups.h" />
+    <ClInclude Include="..\..\re2\walker-inl.h" />
+    <ClInclude Include="..\..\util\malloc_counter.h" />
+    <ClInclude Include="..\..\util\pcre.h" />
+    <ClInclude Include="..\..\util\strutil.h" />
+    <ClInclude Include="..\..\util\utf.h" />
+  </ItemGroup>
+  <ItemGroup>
     <ClCompile Include="..\..\re2\bitmap256.cc" />
-    <ClCompile Include="..\..\re2\bitmap256.h" />
     <ClCompile Include="..\..\re2\bitstate.cc" />
     <ClCompile Include="..\..\re2\compile.cc" />
     <ClCompile Include="..\..\re2\dfa.cc" />
     <ClCompile Include="..\..\re2\filtered_re2.cc" />
-    <ClCompile Include="..\..\re2\filtered_re2.h" />
     <ClCompile Include="..\..\re2\mimics_pcre.cc" />
     <ClCompile Include="..\..\re2\nfa.cc" />
     <ClCompile Include="..\..\re2\onepass.cc" />
     <ClCompile Include="..\..\re2\parse.cc" />
     <ClCompile Include="..\..\re2\perl_groups.cc" />
-    <ClCompile Include="..\..\re2\pod_array.h" />
     <ClCompile Include="..\..\re2\prefilter_tree.cc" />
-    <ClCompile Include="..\..\re2\prefilter_tree.h" />
     <ClCompile Include="..\..\re2\prefilter.cc" />
-    <ClCompile Include="..\..\re2\prefilter.h" />
     <ClCompile Include="..\..\re2\prog.cc" />
-    <ClCompile Include="..\..\re2\prog.h" />
     <ClCompile Include="..\..\re2\re2.cc" />
     <ClCompile Include="..\..\re2\regexp.cc" />
-    <ClCompile Include="..\..\re2\regexp.h" />
     <ClCompile Include="..\..\re2\set.cc" />
-    <ClCompile Include="..\..\re2\set.h" />
     <ClCompile Include="..\..\re2\simplify.cc" />
-    <ClCompile Include="..\..\re2\sparse_array.h" />
-    <ClCompile Include="..\..\re2\sparse_set.h" />
     <ClCompile Include="..\..\re2\tostring.cc" />
     <ClCompile Include="..\..\re2\unicode_casefold.cc" />
-    <ClCompile Include="..\..\re2\unicode_casefold.h" />
     <ClCompile Include="..\..\re2\unicode_groups.cc" />
-    <ClCompile Include="..\..\re2\unicode_groups.h" />
-    <ClCompile Include="..\..\re2\walker-inl.h" />
+    <ClCompile Include="..\..\util\pcre.cc" />
+    <ClCompile Include="..\..\util\rune.cc" />
+    <ClCompile Include="..\..\util\strutil.cc" />
   </ItemGroup>
 </Project>

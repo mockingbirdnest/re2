@@ -38,4 +38,9 @@
     <ClCompile Include="..\..\re2\testing\string_generator.cc" />
     <ClCompile Include="..\..\re2\testing\tester.cc" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\re2\re2.vcxproj">
+      <Project>{0269a15b-3cc2-49c0-832d-00425f50f615}</Project>
+    </ProjectReference>
+  </ItemGroup>
 </Project>
