@@ -1,0 +1,8 @@
+{
+  "solution": {
+    "path": "re2.sln",
+    "projects": [
+      "re2\\re2.vcxproj",
+    ]
+  }
+}
